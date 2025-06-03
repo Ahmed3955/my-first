@@ -1,0 +1,21 @@
+class computer_lab:
+    def __init__(self,maths,eng,chem):
+        self.maths=maths
+        self.eng=eng
+        self.maths=maths
+        self.chem=chem
+        
+    def total(self):
+        total= self.maths+self.eng+self.chem
+        print(total)
+    def average(self):
+        avg=(self.maths+self.eng+self.chem)/4
+        print(avg)
+
+# obj=computer_lab(10,29,30)
+# obj.total()
+# obj.average()
+ravi=computer_lab(30,40,50)
+mahesh=computer_lab(50,60,50)
+ravi.total()
+ravi.average()
